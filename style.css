@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf) format("opentype");
+}
+/*
+Posso usar o root e criar variaveis com "--var"
+root{
+    --var01: exemplo
+    --var02: exemplo
+    .
+    .
+    .
+    .
+Seletor com * seleciona todos elementos html
+}
+*/
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+    
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+}
+header{
+    background-image: linear-gradient(to bottom, #36bf66, #1d753b);
+    margin: 0px auto 0px auto;
+}
+.titulo{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding-top: 30px;
+    margin: 0px;
+    text-shadow: 1px 1px 3px black;
+}
+.subtitulo{
+    text-align: center;
+    color: white;
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}
+.menutot{
+    margin: 0px;
+}
+.menu{
+    color: white;
+    padding: 0px 15px 0px 15px;
+}
+.menu:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    transition-duration: 0.5s;
+}
+nav{
+    padding-bottom: 5px;
+}
+main{
+    background-color: white;
+    margin: auto;
+    padding: 5px 30px 20px 30px;
+    border: 10px;
+    box-shadow: 0px 1px 10px black;
+    min-width: 320px;
+    max-width: 800px;
+}
+.titmain{
+    font: normal 1.5em android;
+    color: #268b4a;
+}
+.stitmain{
+    font: normal 1em android;
+    color: #268b4a;
+    background-image: linear-gradient(to right, #c7ffdb, #f4fff8);
+}
+span{
+    color: #268b4a;
+    font-weight: bolder;
+}
+picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+.imgpq{
+    max-width: 350px;
+    display: block;
+}
+.video{
+    background-color: #1d753b;
+    margin: 0px -30px 30px -30px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+a{
+    text-decoration: none;
+    color: #268b4a;
+    font-weight: bolder;
+}
+.extra{
+    background-color: #bbffd3;
+    border-radius: 10px;
+}
+.titfinal{
+    background-color: #3fb366;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 10px 10px 0px 0px;
+}
+.pextra{
+    padding: 0px 5px 10px 5px;
+    margin: 0px;
+}
+ul{
+    list-style-type: "\2714\0020\0020";
+    columns: 2;
+}
+footer{
+    background-color: #1d753b;
+    color: white;
+    margin: auto;
+    font-weight: lighter;
+}
+.rodape{
+    font-weight: bolder;
+    color: white;
+}
+.prodape{
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+.pessoal{
+    color: #3fb366;
+}
